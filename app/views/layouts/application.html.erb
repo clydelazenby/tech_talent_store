@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>TechTalentStore</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </body>
+  </head>
+
+  <body>
+ 
+ <header>     
+    <%= render "layouts/nav/public" %>
+</header> 
+<section>
+    <%= render "layouts/nav/jumbotron" %>
+</section>
+
+
+
+    <div class="container">
+    <%= yield %>
+    </div>
+
+  </body>
+</html>
