@@ -4,7 +4,7 @@ Rails.application.routes.draw do
   get 'checkout' => 'cart#checkout'
   devise_for :views
   devise_for :users
-root 'storefront#all_items'
+root 'storefront#all_items' 
 get 'categorical' => 'storefront#items_by_category'
 get 'branded' => 'storefront#items_by_brand'
 
