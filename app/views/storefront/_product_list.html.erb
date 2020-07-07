@@ -11,8 +11,8 @@
 				<p><%= number_to_currency product.price %></p>
 
 				<p>
-					<a href="#" data-toggle="modal" data-target="#myModal_<%= product.id %>">
-						<span class="glyphicon glyphicon-plus"></span>QuickInfo
+        <button type="button" class="btn btn-sm btn-outline-secondary"><a href="#" data-toggle="modal" data-target="#myModal_<%= product.id %>">View</button>
+			
 					</a>
 				</p>
 
@@ -51,3 +51,4 @@
 
 	<% end %>
 </div>
+

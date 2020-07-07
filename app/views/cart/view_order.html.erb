@@ -7,11 +7,12 @@
 			<p><%= number_to_currency line_item.product.price %></p>
 			<p>Quantity: <%= line_item.quantity %></p>
 			<p>Subtotal: <%= line_item.line_item_total %></p>
-			
+		<button type="button" class="btn btn-sm btn-outline-secondary"><i class="fas fa-trash-alt"></i></button>
 		</div>
 	<% end %>
 </div>
 
 <div>
 	<%= link_to "Proceed to Checkout", checkout_path, class: "btn btn-success" %>
+
 </div>

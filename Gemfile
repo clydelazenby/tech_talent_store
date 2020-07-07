@@ -63,6 +63,16 @@ gem 'better_errors', group: :development
 gem 'binding_of_caller'
 gem 'stripe', git: 'https://github.com/stripe/stripe-ruby'
 gem 'figaro'
+gem 'yaml_db'
+
+group :development do
+gem 'sqlite3', '~> 1.3', '>= 1.3.11'
+end
+
+group :production do
+gem 'pg'
+end
+
 # gem 'certified'
 # gem 'rails_12factor' group: :production 
 # ruby: "2.0.0"

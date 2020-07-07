@@ -1,0 +1,659 @@
+
+---
+ar_internal_metadata:
+  columns:
+  - key
+  - value
+  - created_at
+  - updated_at
+  records: 
+  - - environment
+    - development
+    - '2019-10-03 12:36:12.973553'
+    - '2019-10-03 12:36:12.973553'
+
+---
+categories:
+  columns:
+  - id
+  - name
+  - created_at
+  - updated_at
+  records: 
+  - - 1
+    - Computers
+    - '2019-10-03 14:06:06.244172'
+    - '2019-10-03 14:06:06.244172'
+  - - 2
+    - Smart Phones
+    - '2019-10-03 14:06:06.249722'
+    - '2019-10-03 14:06:06.249722'
+  - - 3
+    - Televisions
+    - '2019-10-03 14:06:06.254127'
+    - '2019-10-03 14:06:06.254127'
+  - - 4
+    - Appliances
+    - '2019-10-03 14:06:06.258496'
+    - '2019-10-03 14:06:06.258496'
+  - - 5
+    - Games
+    - '2019-10-03 14:06:06.262730'
+    - '2019-10-03 14:06:06.262730'
+  - - 6
+    - Other
+    - '2019-10-03 14:06:06.266914'
+    - '2019-10-03 14:06:06.266914'
+
+---
+line_items:
+  columns:
+  - id
+  - product_id
+  - quantity
+  - line_item_total
+  - order_id
+  - created_at
+  - updated_at
+  records: 
+  - - 12
+    - 1
+    - 3
+    -
+    - 16
+    - '2019-10-09 12:41:50.385459'
+    - '2019-10-09 12:41:50.385459'
+  - - 13
+    - 1
+    - 3
+    - 3000
+    - 17
+    - '2019-10-09 12:43:04.497203'
+    - '2019-10-09 12:43:04.503544'
+  - - 14
+    - 1
+    - 3
+    - 3000
+    - 18
+    - '2019-10-09 12:43:21.351575'
+    - '2019-10-09 12:43:21.355805'
+  - - 15
+    - 1
+    - 3
+    - 3000
+    - 19
+    - '2019-10-09 12:43:29.398880'
+    - '2019-10-09 12:43:29.405195'
+  - - 16
+    - 1
+    - 3
+    - 3000
+    - 20
+    - '2019-10-09 12:43:46.228713'
+    - '2019-10-09 12:43:46.232548'
+  - - 17
+    - 1
+    - 6
+    - 6000
+    - 21
+    - '2019-10-09 12:43:58.105187'
+    - '2019-10-09 12:43:58.110914'
+  - - 18
+    - 1
+    - 3
+    - 3000
+    - 24
+    - '2019-10-09 12:45:23.886314'
+    - '2019-10-09 12:45:23.890948'
+  - - 19
+    - 1
+    - 7
+    - 7000
+    - 26
+    - '2019-10-09 12:45:47.901938'
+    - '2019-10-09 12:45:47.907006'
+  - - 20
+    - 1
+    - 1
+    - 1000
+    - 27
+    - '2019-10-09 12:46:21.154076'
+    - '2019-10-09 12:46:21.161037'
+  - - 21
+    - 1
+    - 1
+    - 1000
+    - 28
+    - '2019-10-09 12:46:50.074497'
+    - '2019-10-09 12:46:50.077855'
+  - - 24
+    - 1
+    - 1
+    - 12.99
+    - 32
+    - '2020-03-21 17:34:54.749600'
+    - '2020-03-21 17:34:54.756501'
+  - - 34
+    - 1
+    - 1
+    - 199.99
+    - 39
+    - '2020-04-29 05:39:05.749385'
+    - '2020-04-29 05:39:05.760294'
+
+---
+orders:
+  columns:
+  - id
+  - subtotal
+  - sales_tax
+  - grand_total
+  - user_id
+  - order_items
+  - created_at
+  - updated_at
+  records: 
+  - - 1
+    - 7150
+    - 572
+    - 7722
+    - 1
+    - |
+      ---
+      2: 1
+      3: 22
+    - '2019-10-08 12:47:54.485886'
+    - '2019-10-08 12:47:54.528262'
+  - - 2
+    - 7150
+    - 572
+    - 7722
+    - 1
+    - |
+      ---
+      2: 1
+      3: 22
+    - '2019-10-08 12:48:43.334034'
+    - '2019-10-08 12:48:43.382073'
+  - - 3
+    - 0
+    - 0
+    - 0
+    - 1
+    -
+    - '2019-10-08 12:49:46.977185'
+    - '2019-10-08 12:49:46.995045'
+  - - 4
+    - 0
+    - 0
+    - 0
+    - 1
+    -
+    - '2019-10-08 12:49:51.364135'
+    - '2019-10-08 12:49:51.378452'
+  - - 5
+    - 0
+    - 0
+    - 0
+    - 1
+    -
+    - '2019-10-08 12:50:28.517318'
+    - '2019-10-08 12:50:28.528335'
+  - - 6
+    - 425
+    - 34
+    - 459
+    - 1
+    - |
+      ---
+      1: 1
+      3: 1
+    - '2019-10-08 12:50:55.370384'
+    - '2019-10-08 12:50:55.431062'
+  - - 7
+    - 0
+    - 0
+    - 0
+    - 1
+    -
+    - '2019-10-08 12:58:24.591946'
+    - '2019-10-08 12:58:24.603524'
+  - - 8
+    - 9000
+    - 720
+    - 9720
+    - 1
+    - |
+      ---
+      1: 8
+    - '2019-10-08 14:41:16.466932'
+    - '2019-10-08 14:41:16.515765'
+  - - 9
+    - 0
+    - 0
+    - 0
+    - 1
+    - |
+      ---
+      2: 1
+    - '2019-10-08 14:42:49.051897'
+    - '2019-10-08 14:42:49.082603'
+  - - 10
+    - 0
+    - 0
+    - 0
+    - 1
+    -
+    - '2019-10-08 14:43:27.140674'
+    - '2019-10-08 14:43:27.158593'
+  - - 11
+    - 0
+    - 0
+    - 0
+    - 1
+    - |
+      ---
+      2: 1
+    - '2019-10-08 14:43:39.273941'
+    - '2019-10-08 14:43:39.317762'
+  - - 12
+    - 0
+    - 0
+    - 0
+    - 1
+    - |
+      ---
+      2: 1
+    - '2019-10-08 14:47:50.260885'
+    - '2019-10-08 14:47:50.303210'
+  - - 13
+    - 8000
+    - 640
+    - 8640
+    - 1
+    - |
+      ---
+      1: 8
+    - '2019-10-08 14:48:48.873920'
+    - '2019-10-08 14:48:48.902425'
+  - - 14
+    - 0
+    - 0
+    - 0
+    - 1
+    -
+    - '2019-10-08 14:49:30.581611'
+    - '2019-10-08 14:49:30.598978'
+  - - 15
+    - 3000
+    - 240
+    - 3240
+    - 1
+    - |
+      ---
+      1: 3
+    - '2019-10-09 12:14:33.042130'
+    - '2019-10-09 12:14:33.074065'
+  - - 16
+    -
+    -
+    -
+    -
+    -
+    - '2019-10-09 12:41:50.382909'
+    - '2019-10-09 12:41:50.382909'
+  - - 17
+    -
+    -
+    -
+    -
+    -
+    - '2019-10-09 12:43:04.494150'
+    - '2019-10-09 12:43:04.494150'
+  - - 18
+    -
+    -
+    -
+    -
+    -
+    - '2019-10-09 12:43:21.345851'
+    - '2019-10-09 12:43:21.345851'
+  - - 19
+    -
+    -
+    -
+    -
+    -
+    - '2019-10-09 12:43:29.396816'
+    - '2019-10-09 12:43:29.396816'
+  - - 20
+    -
+    -
+    -
+    -
+    -
+    - '2019-10-09 12:43:46.227028'
+    - '2019-10-09 12:43:46.227028'
+  - - 21
+    -
+    -
+    -
+    -
+    -
+    - '2019-10-09 12:43:58.102819'
+    - '2019-10-09 12:43:58.102819'
+  - - 22
+    - 0
+    -
+    -
+    - 1
+    -
+    - '2019-10-09 12:44:05.071116'
+    - '2019-10-09 12:44:05.071116'
+  - - 23
+    - 0
+    - 0
+    - 0
+    - 1
+    -
+    - '2019-10-09 12:45:14.476316'
+    - '2019-10-09 12:45:14.491221'
+  - - 24
+    -
+    -
+    -
+    -
+    -
+    - '2019-10-09 12:45:23.884544'
+    - '2019-10-09 12:45:23.884544'
+  - - 25
+    - 0
+    - 0
+    - 0
+    - 1
+    -
+    - '2019-10-09 12:45:27.218229'
+    - '2019-10-09 12:45:27.233161'
+  - - 26
+    -
+    -
+    -
+    -
+    -
+    - '2019-10-09 12:45:47.899065'
+    - '2019-10-09 12:45:47.899065'
+  - - 27
+    -
+    -
+    -
+    -
+    -
+    - '2019-10-09 12:46:21.150910'
+    - '2019-10-09 12:46:21.150910'
+  - - 28
+    -
+    -
+    -
+    -
+    -
+    - '2019-10-09 12:46:50.072627'
+    - '2019-10-09 12:46:50.072627'
+  - - 29
+    - 4000
+    - 320
+    - 4320
+    - 1
+    - |
+      ---
+      1: 4
+    - '2019-10-09 12:47:14.260696'
+    - '2019-10-09 12:47:20.054567'
+  - - 30
+    - 1000
+    - 80
+    - 1080
+    - 1
+    - |
+      ---
+      1: 1
+    - '2020-02-09 04:28:08.361899'
+    - '2020-02-09 04:28:31.503430'
+  - - 31
+    - 0
+    - 0
+    - 0
+    - 1
+    -
+    - '2020-03-21 17:22:08.757974'
+    - '2020-03-21 17:22:08.856928'
+  - - 32
+    - 12.99
+    - 1.0392
+    - 14.0292
+    - 1
+    - |
+      ---
+      1: 1
+    - '2020-03-21 17:34:54.746597'
+    - '2020-03-21 17:35:00.578997'
+  - - 33
+    - 399.98
+    - 31.9984
+    - 431.9784
+    - 1
+    - |
+      ---
+      1: 2
+    - '2020-04-28 21:56:53.172135'
+    - '2020-04-28 22:02:08.073362'
+  - - 34
+    - 199.99
+    - 15.9992
+    - 215.9892
+    - 1
+    - |
+      ---
+      1: 1
+    - '2020-04-28 22:04:21.760198'
+    - '2020-04-28 22:04:31.887446'
+  - - 35
+    - 3618.98
+    - 289.5184
+    - 3908.4984
+    - 1
+    - |
+      ---
+      6: 1
+      2: 1
+      4: 1
+      1: 1
+    - '2020-04-28 22:28:27.571715'
+    - '2020-04-28 22:29:31.092191'
+  - - 36
+    - 199.99
+    - 15.9992
+    - 215.9892
+    - 1
+    - |
+      ---
+      1: 1
+    - '2020-04-28 22:40:15.380076'
+    - '2020-04-28 22:40:25.022033'
+  - - 37
+    - 199.99
+    - 15.9992
+    - 215.9892
+    - 1
+    - |
+      ---
+      1: 1
+    - '2020-04-29 02:33:57.310955'
+    - '2020-04-29 02:35:17.179206'
+  - - 38
+    - 399.98
+    - 31.9984
+    - 431.9784
+    - 1
+    - |
+      ---
+      1: 2
+    - '2020-04-29 04:40:42.047630'
+    - '2020-04-29 04:40:47.613521'
+  - - 39
+    - 199.99
+    - 15.9992
+    - 215.9892
+    - 1
+    - |
+      ---
+      1: 1
+    - '2020-04-29 05:39:05.741767'
+    - '2020-04-29 05:39:09.617125'
+
+---
+products:
+  columns:
+  - id
+  - name
+  - price
+  - quantity
+  - description
+  - brand
+  - rating
+  - category_id
+  - created_at
+  - updated_at
+  - image
+  records: 
+  - - 1
+    - Nintendo Switch Lite
+    - 199.99
+    - 61
+    - 'Introducing Nintendo Switch Lite; A new version of the Nintendo Switch system
+      that''s optimized for personal, handheld play; Nintendo Switch Lite is a small
+      and light Nintendo Switch system at a great price with a built-in plus Control
+      Pad, and a sleek, unibody design; Nintendo Switch Lite is great for on-the-go
+      gaming; Nintendo Switch Lite is compatible with popular games such as Super
+      Mario Odyssey, Mario Kart 8 Deluxe, Super Smash Bros. Ultimate, The Legend of
+      Zelda: Breath of the Wild, and more; If you''re looking for a gaming system
+      all your own, Nintendo Switch Lite is ready to hit the road whenever you are;
+      Game trademarks and copyrights are properties of their respective owners; Nintendo
+      Switch is a trademark of Nintendo.'
+    - Gaming
+    -
+    - 5
+    - '2019-10-03 14:06:31.354539'
+    - '2020-04-29 05:39:09.587019'
+    - switch.jpeg
+  - - 2
+    - Macbook Pro 2019
+    - 1999.99
+    - 93
+    - "Performance\r\nWith great power comes great capability.\r\nMacBook Pro elevates
+      the notebook to a whole new level of performance and portability. Wherever your
+      ideas take you, you’ll get there faster than ever with high‑performance processors
+      and memory, advanced graphics, blazing‑fast storage, and more."
+    - Apple
+    -
+    - 1
+    - '2019-10-03 14:09:21.057835'
+    - '2020-04-28 22:29:30.379272'
+    - apple-macbook-pro-15-inch-core-i5_vbgp.620.webp
+  - - 3
+    - Coat
+    - 325
+    - 55
+    - This new textured, hard face gridded fleece from North Face will have you whistling
+      dixie at winter's chills! Looks cool too.
+    - The North Face
+    -
+    - 6
+    - '2019-10-03 14:12:26.960629'
+    - '2020-04-28 20:26:11.040280'
+    - tnf_AQBX_JK3_f11.jpg
+  - - 4
+    - Digital Microwave Oven, Stainless Steel
+    - 119
+    - 97
+    - "Great for busy families, you can heat up or defrost frozen food with the Hamilton
+      Beach 1.6 cu ft Microwave Oven, so you'll never have to wait for frozen food
+      items to defrost. It has a 1100W microwave output power and includes 10 power
+      levels so you can heat up a wide range of foods with the necessary intensity.
+      The LED display is easy to read and the touch-pad lets you choose between six
+      quick-set buttons. This red microwave oven includes a lockout feature for child
+      safety, as well as a timer and clock feature. It comes in other colors to suit
+      your personal tastes and decor scheme.Hamilton Beach 1.6 cu ft Digital Microwave
+      Oven, Stainless Steel:\r\n1.6 cu ft digital microwave\r\n1100W microwave output
+      power\r\n10 microwave power levels\r\n6 quick set menu buttons\r\n1-touch cooking
+      features: popcorn, potato, reheat, frozen dinner, beverage and pizza\r\n99'99\"
+      cooking timer\r\n+30 Seconds full power express cook\r\nChild-safe lockout feature\r\nDigital
+      clock\r\nDefrost by weight, Defrost by time\r\nEasy to read LED display\r\nStainless
+      steel front, Black housing and White painted cavity\r\n1-year limited warranty\r\nProduct
+      dimensions with handle: 21.67\"L x 19.50\"W x 12.88\"H"
+    - Bosch
+    -
+    - 4
+    - '2020-04-28 20:31:07.740687'
+    - '2020-04-28 22:29:30.730736'
+    - 5584000_sa.jpg
+  - - 5
+    - Samsung 4K UHD TV with HDR
+    - 3999.99
+    - 99
+    - 2160p (4K) resolution with HDR Smart TV Motion Rate 120
+    - Samsung
+    -
+    - 3
+    - '2020-04-28 20:40:00.747564'
+    - '2020-04-28 22:16:23.999538'
+    - download.jpeg
+  - - 6
+    - "  Samsung - Galaxy S20 5G "
+    - 1300
+    - 97
+    - Android 10 (One UI 2) 5G-ready 6.2" Infinity-O Display 64.0MP telephoto, 12.0MP
+      ultrawide and 12.0MP wide rear cameras 10.0MP selfie camera Compatible
+    - Samsung
+    -
+    - 2
+    - '2020-04-28 20:42:08.895983'
+    - '2020-04-28 22:29:30.348835'
+    - Samsung-Galaxy-S20-Plus-500x500.webp
+
+---
+users:
+  columns:
+  - id
+  - email
+  - encrypted_password
+  - reset_password_token
+  - reset_password_sent_at
+  - remember_created_at
+  - created_at
+  - updated_at
+  - name
+  - username
+  - role
+  records: 
+  - - 1
+    - clydelazenby@gmail.com
+    - "$2a$11$lUER.w7bRokMEnvZ5/B8x.OiSKe3MvCHWDYIlXo.pW8CocDUk7Eni"
+    -
+    -
+    -
+    - '2019-10-04 02:52:28.812765'
+    - '2019-10-05 20:43:51.946957'
+    - clydelazenby@gmail.com
+    - Clyde_Lazenby
+    - admin
+  - - 2
+    - dave@example.com
+    - "$2a$11$1S083hq1YDoB3HrlU.Ql4u/pABUO3FAfk41NfwCDtRRugEB03B1Um"
+    -
+    -
+    -
+    - '2020-04-26 06:33:04.932173'
+    - '2020-04-26 06:33:04.932173'
+    - dave
+    - dave
+    -
